@@ -1,0 +1,9 @@
+#+title: Changelog
+
+* 0.1.0
+
+- Stream researched Org drafts from Codex.
+- Comment on lines or selected regions without modifying the document.
+- Apply structured revisions only to commented regions.
+- Request explicit full-document revisions.
+- Render styled Org content and LaTeX previews.
