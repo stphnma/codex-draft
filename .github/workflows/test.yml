@@ -11,7 +11,7 @@ jobs:
       matrix:
         emacs-version: [29.4, 30.2]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: purcell/setup-emacs@master
         with:
           version: ${{ matrix.emacs-version }}
